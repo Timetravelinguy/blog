@@ -1,7 +1,155 @@
-/*
- * Custom CSS
- */
 
-:root {
-  --bs-body-bg: var(--bs-gray-100);
+<style>
+
+h2,h3,h4,h5{
+font-family: 'Ruslan Display', cursive;
+font-size: 120%;
+color: white;
+text-shadow: 0px 0px 7px #fa5ccb;
 }
+h1{
+font-family: 'Ruslan Display', cursive;
+color: white;
+text-shadow: 0px 0px 7px #fa5ccb;
+}
+p {
+ color: #fc1eab; 
+ font-family: 'Permanent Marker', cursive;
+}
+  body{
+  background: url(https://i.pinimg.com/236x/70/72/14/70721439fb23c137ee68829c8b04a58f.jpg);
+}
+
+  .profile{
+ background: white;
+ box-shadow: 0px 0px 5px 5px #fa5ccb;
+}
+:root {
+    --logo-blue: transparent;
+    --darker-blue: #fa5ccb;
+    --lighter-blue:  #fa5ccb;
+    --even-lighter-blue: white;
+    --lightest-blue: white;
+    --dark-orange: white;
+    --light-orange: #fa5ccb;
+    --even-lighter-orange: white;
+    --green: blue;
+}
+.count {
+    color: #fa5ccb;
+}
+.profile-info {
+    border: 2px solid #fa5ccb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 5px;
+    margin-bottom: 10px;
+}
+
+.online {
+    visibility: hidden;
+}
+
+.online {
+   visibility: hidden;
+}
+/* contact icons */
+.contact .inner a img {
+font-size: 0;
+}
+.contact .inner a img:before {
+font-size: 1em;
+display: block
+}
+.contact .inner .f-row:nth-child(1) .f-col:nth-child(1) a:before {
+/* add to friends */
+content: url();
+}
+.contact .inner .f-row:nth-child(1) .f-col:nth-child(2) a:before {
+/* add to favorite */
+content: url();
+}
+.contact .inner .f-row:nth-child(2) .f-col:nth-child(1) a:before {
+/* send a message */
+content:url();
+}
+.contact .inner .f-row:nth-child(2) .f-col:nth-child(2) a:before {
+/* forward to friend*/
+content: url();
+}
+.contact .inner .f-row:nth-child(3) .f-col:nth-child(1) a:before {
+/* instant message */
+content: url();
+}
+.contact .inner .f-row:nth-child(3) .f-col:nth-child(2) a:before {
+/* block user */
+content: url();
+}
+.contact .inner .f-row:nth-child(4) .f-col:nth-child(1) a:before {
+/* add 2 group  */
+content: url();
+}
+.contact .inner .f-row:nth-child(4) .f-col:nth-child(2) a:before {
+/* report */
+content: url();
+}  
+ footer {
+    border-radius: 15px;
+    background-image: url(https://i.pinimg.com/236x/70/72/14/70721439fb23c137ee68829c8b04a58f.jpg);
+    color: white;
+    box-shadow: 0px 0px 5px 5px #fa5ccb;
+
+}
+ main{
+ background: Pink;
+}
+.url-info { h
+}
+.profile .url-info p {
+    font-size: 100%;
+    margin: 0;
+    word-break: break-all;
+    color: transparent
+}
+    
+img:hover , .url-info:hover , .online:hover {
+  animation: shake 1s;
+  animation-iteration-count: infinite;
+}
+.mood:after {
+    content: "";
+    display: block;
+    background-image: url(https://i.pinimg.com/236x/a3/fd/34/a3fd34da77b74d5b226f62a803114494.jpg);
+    height: 160px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 85px;
+    margin-bottom: 10px;
+}
+nav .links li:not(:last-child)::after, footer .links li:not(:last-child)::after {
+    content: "★";
+    color: white;
+
+}
+.col, main, footer, nav::before, .online, nav .links, nav .top {
+animation: float 3s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+}
+
+.col, main, footer, nav::before, .online, nav .links, nav .top {
+animation: float 3s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+}
+@keyframes float {
+0% { transform: translate(0, 0px);
+}
+50% {
+transform: translate(0, 8px);
+}
+100% {
+transform: translate(0, -0px);
+}
+</style>
