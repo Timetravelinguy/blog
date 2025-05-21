@@ -132,12 +132,12 @@ nav .links li:not(:last-child)::after, footer .links li:not(:last-child)::after 
     color: white;
 
 }
-.col, main, footer, nav::before, .online, nav .links, nav .top {
+/*.col, main, footer, nav::before, .online, nav .links, nav .top {
 animation: float 3s;
 animation-iteration-count: infinite;
 animation-timing-function: ease-in-out;
 }
-
+*/
 .col, main, footer, nav::before, .online, nav .links, nav .top {
 animation: float 3s;
 animation-iteration-count: infinite;
